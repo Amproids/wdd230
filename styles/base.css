@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Mono&display=swap');
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: #f4f4f4;
+    margin-bottom: 40px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+header img {
+    max-width: 80px;
+}
+
+nav {
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+}
+nav a {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+.card h3{
+    font-family: 'Roboto Mono', monospace;
+    background-color: steelblue;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px, 0;
+}
+.card ul {
+    list-style-type: none;
+}
+.card li{
+    padding: 0.2rem 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
