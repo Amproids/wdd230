@@ -1,0 +1,11 @@
+@media (min-width: 650px) {
+    nav {
+        flex-direction: row;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    h2 {
+        grid-column: 1 / 3;
+    }
+}
