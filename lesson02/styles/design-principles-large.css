@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px) {
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #card3 {
+        grid-column: 3;
+        width: 350px;
+    }
+    #card3 img {
+        width: 300px;
+    }
+}
