@@ -18,20 +18,49 @@ header {
 header img {
     max-width: 80px;
 }
-
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    top:150px;
+    right: 20px;
+}
+#menu::before {
+	content: "☰";
+}
+#menu.open::before {
+    content: "✖";
+}
+.active::before{
+    content: "> ";
+}
+.active::after {
+    content: " <"
+}
 nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: #444;
-    padding: 10px;
+}
+.open a{
+    display: block;
 }
 nav a {
+    display: none;
     font-family: 'Roboto Mono', monospace;
     color: #fff;
     text-decoration: none;
-    margin: 0.7rem;
+    padding: 0.7rem;
+}
+nav a:hover {
+    background-color: #666;
+}
+nav a:active {
+    background-color: #888;
 }
 
 main {
@@ -71,7 +100,12 @@ h2 {
 .card p{
     padding: 1rem;
 }
-
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 2rem 0;
+}
 footer {
     text-align: center;
     padding: 20px 0;

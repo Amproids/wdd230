@@ -1,6 +1,12 @@
 @media (min-width: 650px) {
+    #menu::before{
+        display: none;
+    }
     nav {
         flex-direction: row;
+    }
+    nav a {
+        display: block;
     }
     main {
         grid-template-columns: 1fr 1fr;
