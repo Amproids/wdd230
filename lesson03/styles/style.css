@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #5BC0EB;     /*Aero*/
+    --accent-color: #E55934;      /*Cinnabar*/
+    --secondary-color: #9BC53D;   /*Yellow Green*/
+    --tertiary-color:#FA7921;   /*Pumpkin*/
+    --highlight-color:  #FDE74C;    /*Maize*/
+}
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#primary-color {
+    background-color: var(--primary-color);
+}
+#accent-color {
+    background-color: var(--accent-color);
+}
+#secondary-color {
+    background-color: var(--secondary-color);
+}
+#tertiary-color {
+    background-color: var(--tertiary-color);
+}
+#highlight-color {
+    background-color: var(--highlight-color);
+}
+#montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+#lora-font {
+    font-family: 'Lora', serif;
+}
+#pacifico-font {
+    font-family: 'Pacifico', cursive;
+}
