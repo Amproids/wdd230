@@ -1,9 +1,7 @@
 :root {
-    --primary-color: #5BC0EB;     /*Aero*/
-    --accent-color: #E55934;      /*Cinnabar*/
+    --primary-color: rgb(83, 153, 211);     /*Blue*/
+    --accent-color:#FA7921;   /*Pumpkin*/
     --secondary-color: #9BC53D;   /*Yellow Green*/
-    --tertiary-color:#FA7921;   /*Pumpkin*/
-    --highlight-color:  #FDE74C;    /*Maize*/
 }
 body {
     margin: 0 auto;
@@ -20,12 +18,7 @@ body {
 #secondary-color {
     background-color: var(--secondary-color);
 }
-#tertiary-color {
-    background-color: var(--tertiary-color);
-}
-#highlight-color {
-    background-color: var(--highlight-color);
-}
+
 #montserrat-font {
     font-family: 'Montserrat', sans-serif;
 }
