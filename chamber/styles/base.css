@@ -1,0 +1,45 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+}
+header img {
+    width: 4.5rem;
+    margin: auto auto;
+    border-radius: 3rem;
+}
+#menu {
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+#menu::before {
+	content: "☰";
+}
+#menu.open::before {
+    content: "✖";
+}
+nav {
+    display: flex;
+    grid-column: 1 / 4;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #444;
+}
+nav a {
+    display: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+nav a:hover {
+    background-color: #666;
+}
+nav a:active {
+    background-color: #444;
+}
+.open a{
+    display: block;
+}
