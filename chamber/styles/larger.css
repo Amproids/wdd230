@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hero-image {
+        grid-column: 1 / 4;
+    }
+    #call-to-action {
+        grid-column: 1 / 4;
+    }
+}
