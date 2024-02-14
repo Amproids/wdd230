@@ -92,6 +92,7 @@ main {
     border-radius: 1rem;
 }
 .card h2 {
+    margin-top: 0;
     color: black;
     background-color: var(--primary-color);
     padding: 0.5rem;
@@ -104,6 +105,8 @@ main {
 .card img {
     max-width: 100%;
     padding-bottom: 1rem;
+    display: block;
+    margin: 0 auto;
 }
 #weather h2 {
     background-color: var(--secondary-color);

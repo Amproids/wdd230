@@ -8,4 +8,7 @@
     #call-to-action {
         grid-column: 1 / 4;
     }
+    #spotlight {
+        grid-column: 3 / 4;
+    }
 }
