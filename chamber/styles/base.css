@@ -47,6 +47,8 @@ nav a {
     color: #fff;
     text-decoration: none;
     padding: 0.7rem;
+    font-size: larger;
+    font-weight: 800;
 }
 nav a:hover {
     background-color: #666;
@@ -114,4 +116,8 @@ main {
 footer {
     text-align: center;
     margin: 2rem auto;
+    background-color: #444;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 0;
 }
