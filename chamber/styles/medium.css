@@ -1,4 +1,8 @@
 @media screen and (min-width: 600px) {
+    header img {
+        position: relative;
+        top: 1rem;
+    }
     #menu {
         display: none;
     }

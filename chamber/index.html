@@ -31,7 +31,11 @@
             <a href="discover.html">Discover</a>
             <a href="directory.html">Directory</a>
             <a href="join.html">Join</a>
-        </nav>        
+        </nav>
+        <label class="switch" id="night-theme">
+            <input type="checkbox" checked="">
+            <span class="slider round"></span>
+        </label>
     </header>
     <main>
         <img class="hero-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhJjQVa24jsc%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=4f502b05181075693b17a571e888c50e591a1bd786d09d7707d9d0923c03d55f&ipo=images" alt="Landscape image of city">
@@ -40,13 +44,38 @@
         </section>
         <section class="card" id="current-events">
             <h2>Current Events</h2>
-            <p>Llorem Ipsum Coming up this Februray 14th.</p>
-            <p>Come to our annual Llorem Ipsum Meeting March 1st.</p>
+            <ul>
+                <li>
+                    <h3>Local Business Expo</h3>
+                    <p class="toggle-text">Join us for an exciting showcase of local businesses and their offerings at our annual Business Expo!<br>
+                       Date: April 15, 2024<br>
+                       Time: 10:00 AM - 4:00 PM<br>
+                       Location: Civic Center</p>
+                </li>
+                <li>
+                    <h3>Community Clean-Up Day</h3>
+                    <p class="toggle-text">Get involved in making our community cleaner and greener. Join us for Community Clean-Up Day!<br>
+                       Date: May 1, 2024<br>
+                       Time: 9:00 AM - 12:00 PM<br>
+                       Location: Various Locations</p>
+                </li>
+                <li>
+                    <h3>Chamber Networking Mixer</h3>
+                    <p class="toggle-text">Connect with fellow chamber members and local professionals at our upcoming Networking Mixer.<br>
+                       Date: May 10, 2024<br>
+                       Time: 6:00 PM - 8:00 PM<br>
+                       Location: City Hall Rooftop</p>
+                </li>
+            </ul>
         </section>
         <section class="card" id="weather">
             <h2>Weather</h2>
-            <p>It's currently [sunny] with a temperature of [70]°F</p>
-        </section>
+            <p>Current Conditions: ☀️ Sunny</p>
+            <p>Temperature: [70]°F</p>
+            <p>Wind Speed: [10] mph</p>
+            <p>Forecast: [Clear skies throughout the day]</p>
+            <p>Special Events: [Outdoor events recommended]</p>
+        </section>        
         <section class="card" id="spotlight">
             <h2>Company Spotlight</h2>
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.vBAmxbeZoUpMmwl_ZTWXTgHaEW%26pid%3DApi&f=1&ipt=7cdc7d4de212068af89acd271cb75dbb8249e9c1138c69c61d6d27150bad2d7f&ipo=images" alt="advertisement placeholder">
@@ -56,5 +85,7 @@
         © <span id="current-year"></span> | Andrew Parry | Project Website For: WDD 230 | Last Modified: <span id="modification-date"></span> | Contact: <a href="mailto:city@example.com">city@example.com</a>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/current-events.js"></script>
+    <script src="scripts/night-theme.js"></script>
 </body>
 </html>
