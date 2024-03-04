@@ -1,0 +1,15 @@
+img {
+    display: block;
+    animation: fade 10s;
+    background-color: black;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+    }
+}
