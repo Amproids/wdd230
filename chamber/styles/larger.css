@@ -2,6 +2,10 @@
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    #discover-main {
+        max-width: 1000px;
+        grid-template-columns: 1fr 2fr;
+    }
     .hero-image {
         grid-column: 1 / 4;
     }
@@ -10,5 +14,9 @@
     }
     #spotlight {
         grid-column: 3 / 4;
+    }
+    #discover-images {
+        grid-column: 2 / 3;
+        grid-row: 1 / 5;
     }
 }

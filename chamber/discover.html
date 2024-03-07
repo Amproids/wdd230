@@ -27,8 +27,8 @@
         <h1>City Chamber of Commerce</h1>
         <button id="menu"></button>
         <nav>
-            <a href="#">Home</a>
-            <a href="discover.html">Discover</a>
+            <a href="index.html">Home</a>
+            <a href="#">Discover</a>
             <a href="directory.html">Directory</a>
             <a href="join.html">Join</a>
         </nav>
@@ -37,15 +37,55 @@
             <span class="slider round"></span>
         </label>
     </header>
-    <main>
-        
+    <main id="discover-main">
+        <section class="card" id="discover-images">
+            <h2>Local Scenery Gallery</h2>
+            <figure>
+                <img src="images/mountain.webp" alt="A Mountain" loading="lazy" width="300">
+                <figcaption>Grand Sentinel Peak</figcaption>
+            </figure>
+            <figure>
+                <img src="images/highway.webp" alt="A cat" loading="lazy" width="300">
+                <figcaption>Eagle's Wing Highway</figcaption>
+            </figure>
+            <figure>
+                <img src="images/lake.webp" alt="A cat" loading="lazy" width="300">
+                <figcaption>Sapphire Serenity Lake</figcaption>
+            </figure>
+            <figure>
+                <img src="images/meadow.webp" alt="A cat" loading="lazy" width="300">
+                <figcaption>Sentinel's Grace Meadow</figcaption>
+            </figure>
+            <figure>
+                <img src="images/river.webp" alt="A cat" loading="lazy" width="300">
+                <figcaption>Whispering Willow River</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rocks.webp" alt="A cat" loading="lazy" width="300">
+                <figcaption>Mystic Veil Canyon</figcaption>
+            </figure>
+        </section>
+        <section class="card">
+            <h2>Last Visited</h2>
+            <p id="last-visited"></p>
+        </section>
+        <section class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, sapiente. Quibusdam ad dolorum illum fugit ducimus alias culpa consectetur ipsum incidunt molestiae sequi rerum sit maxime quae debitis blanditiis, quidem numquam, voluptate eligendi quod, esse eos assumenda. Iure exercitationem ullam provident doloremque est, maiores possimus in, dignissimos, laudantium quae laborum.</p>
+        </section>
+        <section class="card">
+            <h2>Placeholder Image</h2>
+            <img src="https://loremflickr.com/400/300/placeholder" alt="placeholder" loading="lazy" width="400" height="300">
+        </section>
+        <section class="card" id="calender">
+            <h2>Calender</h2>
+        </section>
     </main>
     <footer>
         © <span id="current-year"></span> | Andrew Parry | Project Website For: WDD 230 | Last Modified: <span id="modification-date"></span> | Contact: <a href="mailto:city@example.com">city@example.com</a>
     </footer>
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/current-events.js"></script>
     <script src="scripts/night-theme.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/last-visited.js"></script>
 </body>
 </html>
