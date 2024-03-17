@@ -185,6 +185,80 @@ main {
 #weather h2 {
     background-color: var(--secondary-color);
 }
+
+.membership-descriptions {
+    margin: 1rem;
+}
+.membership-descriptions p{
+    padding: 1rem;
+}
+
+form {
+    margin: 2rem auto;
+    width: 80%;
+}
+form legend {
+    font-size: larger;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: var(--primary-color);
+    padding: 0 .5rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+form div {
+    padding-top: 1rem;
+    color: var(--primary-color);
+    font-size: .9rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding : .75rem;
+    color: #555;
+    width: 90%;
+    max-width: 400px;
+}
+form input[type="radio"],
+form input[type="checkbox"]
+{
+    margin-right: 6px;
+}
+form input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 300px;
+}
+
+form input:required {
+    border-bottom: solid 2px var(--accent-color);
+}
+
+form input:required:valid {
+    border-bottom: solid 2px var(--secondary-color);
+}
+
 footer {
     text-align: center;
     margin: 0 auto;
