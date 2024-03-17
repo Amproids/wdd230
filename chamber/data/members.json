@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Rocky Roasters",
+            "address": "123 Mountain View Dr, Rocky Springs, UT",
+            "phone": "+1 (555) 123-4567",
+            "url": "http://www.rockyroasters.com",
+            "iconUrl": "https://example.com/icons/rocky_roasters.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Mountain Mercantile",
+            "address": "456 Main St, Summitville, UT",
+            "phone": "+1 (555) 987-6543",
+            "url": "http://www.mountainmercantile.com",
+            "iconUrl": "https://example.com/icons/mountain_mercantile.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Alpine Adventures",
+            "address": "789 Trailhead Rd, Eagle Ridge, UT",
+            "phone": "+1 (555) 321-7890",
+            "url": "http://www.alpineadventures.com",
+            "iconUrl": "https://example.com/icons/alpine_adventures.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Summit Sweets",
+            "address": "321 Pine St, Mountain Meadows, UT",
+            "phone": "+1 (555) 876-5432",
+            "url": "http://www.summitsweets.co",
+            "iconUrl": "https://example.com/icons/summit_sweets.png",
+            "membership": "Non-Profit"
+        },
+        {
+            "name": "Craggy Crafts Co.",
+            "address": "567 Craftsman Ln, Boulder Brook, UT",
+            "phone": "+1 (555) 234-5678",
+            "url": "http://www.craggycrafts.com",
+            "iconUrl": "https://example.com/icons/craggy_crafts.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Pinecone Pottery",
+            "address": "890 Pottery Rd, Forest Falls, UT",
+            "phone": "+1 (555) 432-1098",
+            "url": "http://www.pineconepottery.com",
+            "iconUrl": "https://example.com/icons/pinecone_pottery.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Eagle's Nest Brewery",
+            "address": "234 Brewery Ave, Eagle's Nest, UT",
+            "phone": "+1 (555) 678-9012",
+            "url": "http://www.eaglesnestbrewery.com",
+            "iconUrl": "https://example.com/icons/eagles_nest_brewery.png",
+            "membership": "Gold"
+        }
+    ]
+}
