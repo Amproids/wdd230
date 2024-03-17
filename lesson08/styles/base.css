@@ -1,0 +1,25 @@
+main {
+    max-width: 600px;
+    margin: 1rem auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: steelblue;
+}
+td, th {
+    border: 1px solid #aaaaaa;
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+caption {
+    text-align: center;
+    caption-side: bottom;
+}
