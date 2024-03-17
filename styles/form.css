@@ -1,0 +1,69 @@
+main {
+    display: block;
+}
+form {
+    margin: 2rem auto;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+}
+
+form div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding : .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+#rangevalue {
+    font-size: larger;
+}
+#rangevalues option{
+    margin: .3rem;
+}
+form input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(#445ba9, steelblue);
+    padding: 1rem;
+    width: 50%;
+    max-width: 300px;
+}
+
+form input:required {
+    border-bottom: solid 2px red;
+}
+
+form input:required:valid {
+    border-bottom: solid 2px green;
+}
+#rangevalues {
+	display: flex;
+}
