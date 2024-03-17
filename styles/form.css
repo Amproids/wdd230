@@ -1,8 +1,17 @@
+:root {
+    --invalid-color: #ff4d4d;
+    --valid-color: #41a341;
+    --style-color: #3366ff; 
+  }
+
 main {
     display: block;
 }
 form {
     margin: 2rem auto;
+}
+form legend {
+    font-size: larger;
 }
 form fieldset {
     margin: 2rem 0;
@@ -11,20 +20,20 @@ form fieldset {
     padding: .5rem 2%;
 }
 form legend {
-    color: #445ba9;
+    color: var(--style-color);
     padding: 0 .5rem;
 }
 
 form label {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: var(--invalid-color);
     font-size: .9rem;
 }
 
 form div {
     padding-top: 1rem;
-    color: #445ba9;
+    color: var(--style-color);
     font-size: .9rem;
 }
 
@@ -51,18 +60,18 @@ form input[type="password"]
 form input[type="submit"] {
     border: none;
     border-radius: 5px;
-    background-image: linear-gradient(#445ba9, steelblue);
+    background-color: var(--style-color);
     padding: 1rem;
     width: 50%;
     max-width: 300px;
 }
 
 form input:required {
-    border-bottom: solid 2px red;
+    border-bottom: solid 2px var(--invalid-color);
 }
 
 form input:required:valid {
-    border-bottom: solid 2px green;
+    border-bottom: solid 2px var(--valid-color);
 }
 #rangevalues {
 	display: flex;
