@@ -259,6 +259,11 @@ form input:required:valid {
     border-bottom: solid 2px var(--secondary-color);
 }
 
+#thankyoutext {
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
 footer {
     text-align: center;
     margin: 0 auto;
