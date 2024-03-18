@@ -274,3 +274,21 @@ footer {
 footer a {
     color: rgb(40, 40, 255);
 }
+#members .card {
+    padding-bottom: 1rem;
+}
+.menu {
+    margin: 1rem 0;
+    text-align: center;
+}
+#members.list {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#members.list .card p, a{
+    margin: 0 1rem;
+}
+#members.list img{
+    display: none;
+}

@@ -2,7 +2,6 @@ const baseURL = "https://Amproids.github.io/wdd230/";
 const linksURL = "https://Amproids.github.io/wdd230/data/links.json";
 const linksElement = document.querySelector("#lessons");
 
-
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
