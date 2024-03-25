@@ -104,6 +104,15 @@
                     "title": "Fetch Prophets"
                 }
             ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "lesson10/index.html",
+                    "title": "Weather API"
+                }
+            ]
         }
     ]
 }
