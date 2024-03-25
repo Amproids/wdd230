@@ -114,6 +114,10 @@ h2 {
 .card p{
     padding: 1rem;
 }
+.weather {
+    display: flex;
+    align-items: center;
+}
 iframe {
     display: block;
     margin: 0 auto;
