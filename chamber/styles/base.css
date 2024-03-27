@@ -132,7 +132,7 @@ main {
     text-align: center;
     margin: 1rem auto;
     max-width: 500px;
-    width: clamp(50px, 80%, 500px)
+    width: clamp(50px, 80%, 500px);
 }
 #call-to-action a{
     font-family: "Pacifico", cursive;
@@ -144,6 +144,13 @@ main {
     border-radius: 1rem;
     text-decoration: none;
     box-shadow: 0 0 5px;
+}
+#banner {
+    display: none;
+    text-align: center;
+    background-color: var(--accent-color);
+    padding: 1rem;
+    grid-column: 1 / 4;
 }
 .card {
     margin: 0.5rem;
