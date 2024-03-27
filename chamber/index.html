@@ -78,11 +78,15 @@
         </section>
         <section class="card" id="weather">
             <h2>Weather</h2>
-            <p>Current Conditions: ☀️ Sunny</p>
-            <p id="temperature">Temperature: [70]°F</p>
-            <p id="windspeed">Wind Speed: [10] mph</p>
+            <h3 id="weather-date"></h3>
+            <img id="weather-icon" src="" alt="">
+            <p id="conditions"></p>
+            <p id="temperature"></p>
+            <p id="windspeed"></p>
             <p id="windchill"></p>
-            <p>Forecast: [Clear skies throughout the day]</p>
+            <div id="forecast">
+                
+            </div>
             <p>Special Events: [Outdoor events recommended]</p>
         </section>        
         <section class="card" id="spotlight">
@@ -96,6 +100,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/current-events.js"></script>
     <script src="scripts/night-theme.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

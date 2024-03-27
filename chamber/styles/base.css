@@ -185,6 +185,13 @@ main {
 #weather h2 {
     background-color: var(--secondary-color);
 }
+#weather h3, p {
+    text-align: center;
+}
+#forecast {
+    display: flex;
+    justify-content: space-around;
+}
 
 .membership-descriptions {
     margin: 1rem;
