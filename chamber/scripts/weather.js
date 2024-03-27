@@ -94,7 +94,6 @@ function forecastInsert(data, parentElement, day) {
     const dayElement = document.createElement("h3");
     const forecastIcon = document.createElement("img");
     const tempElement = document.createElement("p");
-    //windspeed
 
     //Add forecast data.
     forecastIcon.setAttribute("src", iconsrc);
