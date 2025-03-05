@@ -1,0 +1,22 @@
+@media screen and (min-width: 640px) {
+    /* Navigation changes for larger screens */
+    nav {
+        flex-direction: row;
+        justify-content: stretch;
+        width: 100%;
+    }
+    
+    nav a {
+        flex-grow: 1;
+        width: auto;
+    }
+    
+    /* Card layout changes for larger screens */
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    main h1 {
+        grid-column: 1 / -1;
+    }
+}
