@@ -1,14 +1,23 @@
+/* Responsive styles for screens 640px and above */
 @media screen and (min-width: 640px) {
-    
+    /* Control elements adjustments */
     #menu {
         display: none;
     }
+    
     /* Navigation changes for larger screens */
     nav {
         display: flex;
+        height: auto;
         flex-direction: row;
         justify-content: stretch;
         width: 100%;
+        background-color: #e6e6e6;
+    }
+    
+    /* State handling for responsive nav */
+    nav.open {
+        height: auto;
     }
     
     nav a {
@@ -16,7 +25,12 @@
         width: auto;
     }
     
-    /* Card layout changes for larger screens */
+    /* Dark mode specific adjustments */
+    body.darkmode nav {
+        background-color: #2d2d2d;
+    }
+    
+    /* Layout changes for larger screens */
     main {
         grid-template-columns: 2fr 1fr;
     }
