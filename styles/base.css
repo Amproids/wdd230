@@ -22,6 +22,7 @@ h1, h2, h3 {
 /* Header styles */
 header {
     display: flex;
+    position: relative;
     align-items: center;
     background-color: #3a5a78;
     color: white;
@@ -41,23 +42,54 @@ header span {
     font-size: 1.5rem;
     font-weight: 500;
 }
-/* Hamburger menu */
 
+/* Style for Material Icons to prevent selection and show pointer cursor */
+.material-symbols-rounded {
+    user-select: none;  /* Prevents text selection */
+    -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE/Edge */
+    cursor: pointer;            /* Changes cursor to hand icon when hovering */
+    transition: transform 0.8s ease, opacity 0.2s ease;
+}
+  
+/* Optional: add some hover effect for better UX */
+.material-symbols-rounded:hover {
+    opacity: 0.8;
+}
+
+/* Darkmode button */
+#darkmode {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #ffffff;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    
+}
+
+/* Rotation for dark mode toggle */
+.darkmode #darkmode {
+    transform: rotate(180deg);
+}
+
+/* Hamburger menu */
 #menu {
+    display: block;
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
 	color: #ffffff;
  	position: absolute;
-	top: 9.5rem;
-	right: 2rem;
-}
-#menu::before {
-	content: "☰";
+	bottom: 1rem;
+	right: 1.5rem;
 }
 
-#menu.open::before {
-	content: "✕";
+/* Rotation animation for menu icon */
+#menu.open {
+    transform: rotate(90deg);
 }
 
 /* Navigation styles */
@@ -152,4 +184,42 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+}
+
+/* Dark mode styles */
+body.darkmode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.darkmode header {
+    background-color: #1e3a5a;
+}
+
+body.darkmode nav {
+    background-color: #2d2d2d;
+}
+
+body.darkmode nav a {
+    color: #e0e0e0;
+}
+
+body.darkmode nav a:hover,
+body.darkmode nav a.active {
+    background-color: #1e3a5a;
+    color: white;
+}
+
+body.darkmode .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+body.darkmode main section.card a {
+    color: #7eabd6;
+}
+
+body.darkmode footer {
+    background-color: #1e3a5a;
 }
