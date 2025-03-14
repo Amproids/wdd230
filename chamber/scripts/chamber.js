@@ -7,10 +7,10 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
     
     // Toggle between menu and close icons
-    if (hamButton.innerHTML.includes('fa-bars')) {
-        hamButton.innerHTML = '<i class="fas fa-times" aria-hidden="true"></i>';
+    if (hamButton.querySelector('.bi').classList.contains('bi-list')) {
+        hamButton.innerHTML = '<i class="bi bi-x-lg" aria-hidden="true"></i>';
     } else {
-        hamButton.innerHTML = '<i class="fas fa-bars" aria-hidden="true"></i>';
+        hamButton.innerHTML = '<i class="bi bi-list" aria-hidden="true"></i>';
     }
 });
 
