@@ -1,0 +1,57 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header, footer {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    margin: 1rem 0;
+    color: #1d3557;
+}
+
+.hero {
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    padding: 1rem;
+    background-color: #f1faee;
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 1rem;
+}

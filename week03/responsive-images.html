@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 - Responsive Images</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development I - Responsive Images Assignment">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple-small.webp" media="(max-width: 500px)">
+                <source srcset="images/temple-medium.webp" media="(max-width: 1000px)">
+                <img src="images/temple-large.webp" alt="Temple photograph showing beautiful architecture" width="1500" height="750">
+            </picture>
+        </div>
+        <section>
+            <h2>Using Responsive Images</h2>
+            <p>This page demonstrates the use of responsive images using the picture element, source elements with media queries, and an img element with width and height attributes.</p>
+            <p>The images were created using art direction to focus on different aspects of the temple at different viewport sizes.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Your Name | WDD 230 - Web Frontend Development</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
+</body>
+</html>
