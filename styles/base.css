@@ -126,7 +126,24 @@ main {
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
+#hero-div {
+    position: relative;
+    width: 100%;
+}
+#hero-div img {
+    width: 100%;
+    border-radius: 5px;
+}
+#hero-overlay {
+    position: absolute;
+    text-wrap: nowrap;
+    top: 1rem;
+    left: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
 main h1 {
     text-align: center;
     margin: 1rem 0;

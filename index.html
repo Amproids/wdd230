@@ -48,6 +48,16 @@
         <a href="index.html">Form</a>
     </nav>
     <main>
+        <div id="hero-div">
+            <picture>
+                <!-- Larger view (960px width) -->
+                <source srcset="images/hero-large.webp" media="(min-width: 500px)">
+                <!-- Mobile view (400px width) -->
+                <img src="images/hero-small.webp" alt="Boise Idaho Temple" loading="lazy">
+            </picture>
+            <div id="hero-overlay">Boise Idaho Temple</div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58562.599168654204!2d-111.61371591174671!3d40.11408476536009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9672d1d63375%3A0x5f518846ae4bb535!2sMapleton%2C%20UT!5e0!3m2!1sen!2sus!4v1742602099222!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -65,7 +75,7 @@
         <section class="card">
             <h2>Information</h2>
             <p>Weather: Placeholder for weather info</p>
-            <p>Visits: Placeholder for visit counter</p>
+            <p>Visits: <span id="visit-counter">0</span></p>
         </section>
     </main>
     <footer>
@@ -74,5 +84,6 @@
     </footer>
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/menu.js" defer></script>
+    <script src="scripts/visitCounter.js" defer></script>
 </body>
 </html>
