@@ -232,3 +232,8 @@ body.darkmode .card a {
 body.darkmode footer {
     background-color: #1e3a5a;
 }
+
+/* Discover Page Styles */
+#discover-main {
+    display: none;
+}
