@@ -1,0 +1,406 @@
+/* base.css - Mapleton City Chamber of Commerce */
+/* Created based on the chamber-site-plan */
+
+/* Variables */
+:root {
+    --primary-color: #6B0E10;     /* Maroon */
+    --secondary-color: #E8DCCA;   /* Beige */
+    --accent1-color: #C04000;     /* Deep Orange */
+    --accent2-color: #2E5339;     /* Forest Green */
+    --heading-font: 'Montserrat', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+    --white: #ffffff;
+    --dark-gray: #333333;
+    --light-gray: #f5f5f5;
+    --max-width: 1200px;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--body-font);
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.site-name h1, .site-name h2 {
+    color: var(--white);
+    margin: 0;
+}
+
+.site-name h1 {
+    font-size: 1.5rem;
+}
+
+.site-name h2 {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* Navigation Styles */
+nav {
+    width: 100%;
+}
+
+#hamburger {
+    display: block;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    color: var(--white);
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#primary-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#primary-nav.open {
+    display: flex;
+}
+
+#primary-nav li {
+    width: 100%;
+}
+
+#primary-nav a {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#primary-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#primary-nav a.active {
+    background-color: var(--accent1-color);
+}
+
+.current-date {
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.section-card {
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.section-card h2 {
+    background-color: var(--accent2-color);
+    color: var(--white);
+    padding: 1rem;
+    margin: 0;
+}
+
+.section-container {
+    padding: 1.5rem;
+}
+
+/* Hero Section */
+.hero-container {
+    position: relative;
+    padding: 0;
+}
+
+.hero-container img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.hero-container h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: var(--white);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Events Section */
+.event-card {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.event-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* Spotlights Section */
+.spotlight {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.spotlight img {
+    width: 120px;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.spotlight hr {
+    border: none;
+    border-top: 1px solid var(--accent1-color);
+    margin: 1rem 0;
+}
+
+.spotlight p {
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-link {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* About Section */
+.info-card {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.info-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.weather-content {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.temp {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.condition {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.city-link {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* Benefits Section */
+.benefit-card {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.benefit-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 2rem 1rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.footer-name h3 {
+    color: var(--white);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.footer-contact p {
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact a {
+    color: var(--white);
+}
+
+.footer-contact a:hover {
+    color: var(--secondary-color);
+}
+
+.footer-base {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    max-width: var(--max-width);
+    margin: 2rem auto 0 auto;
+    font-size: 0.9rem;
+}
+
+.footer-base p {
+    margin-bottom: 0.5rem;
+}
