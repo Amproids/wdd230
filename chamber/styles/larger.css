@@ -139,4 +139,10 @@
         width: 100%;
         object-fit: cover;
     }
+    
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
 }
