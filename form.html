@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew L. Parry - WDD 230 - Form</title>
+    <meta name="description" content="A form for Andrew L. Parry in WDD 230: Web Frontend Development">
+    <meta name="author" content="Andrew L. Parry">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <!-- Font preloading for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Non-blocking font loading with display=swap parameter -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap&font-display=swap" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,400,0,0&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,400,0,0&display=swap">
+    </noscript>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Profile picture of Andrew L. Parry">
+        <span>Andrew L. Parry</span>
+        <span class="material-symbols-rounded" id="darkmode">dark_mode</span>
+        <span class="material-symbols-rounded" id="menu">menu</span>
+    </header>
+    <nav id="header-nav">
+        <a href="index.html">Home</a>
+        <a href="./chamber/index.html">Chamber</a>
+        <a href="./week01/chamber-site-plan.html">Site Plan</a>
+        <a href="index.html">Form</a>
+    </nav>
+    
+    <main>
+        <h1>Course Registration Form</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>User Information</legend>
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and contain only letters and numbers">
+                
+                <label for="password2">Confirm Password:</label>
+                <input type="password" id="password2" name="password2" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address from byui.edu domain">
+                
+                <div class="rating-container">
+                    <label for="rating">Page Rating:</label>
+                    <div class="range-wrapper">
+                        <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5">
+                        <div class="rating-value">5</div>
+                    </div>
+                </div>
+                
+                <button type="submit">Submit Registration</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Andrew L. Parry | Utah, U.S.A.</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</body>
+</html>
