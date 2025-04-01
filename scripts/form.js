@@ -23,7 +23,7 @@ form.addEventListener('submit', function(event) {
 
     // Check if email is valid
     const emailPattern = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
-    if (!emailPattern.test(emailPattern)) {
+    if (!emailPattern.test(email.value)) {
         event.preventDefault();
         alert('Please enter a valid email address from byui.edu domain.');
         email.value = '';
