@@ -1,0 +1,144 @@
+{
+    "families": [
+        {
+            "family_name": "Perry",
+            "move_in_date": "2025-03-15",
+            "number_of_members": 4,
+            "visited_by_bishopric": true,
+            "family_members": [
+                {
+                    "name": "Andrew Perry",
+                    "gender": "Male",
+                    "birthdate": "2000-05-10"
+                },
+                {
+                    "name": "Emily Perry",
+                    "gender": "Female",
+                    "birthdate": "1999-07-22"
+                },
+                {
+                    "name": "James Perry",
+                    "gender": "Male",
+                    "birthdate": "2022-01-25"
+                },
+                {
+                    "name": "Lily Perry",
+                    "gender": "Female",
+                    "birthdate": "2024-06-12"
+                }
+            ]
+        },
+        {
+            "family_name": "Jones",
+            "move_in_date": "2025-02-20",
+            "number_of_members": 5,
+            "visited_by_bishopric": false,
+            "family_members": [
+                {
+                    "name": "Michael Jones",
+                    "gender": "Male",
+                    "birthdate": "1985-03-15"
+                },
+                {
+                    "name": "Sarah Jones",
+                    "gender": "Female",
+                    "birthdate": "1987-11-05"
+                },
+                {
+                    "name": "Ella Jones",
+                    "gender": "Female",
+                    "birthdate": "2014-08-30"
+                },
+                {
+                    "name": "Owen Jones",
+                    "gender": "Male",
+                    "birthdate": "2017-02-10"
+                },
+                {
+                    "name": "Aiden Jones",
+                    "gender": "Male",
+                    "birthdate": "2021-09-12"
+                }
+            ]
+        },
+        {
+            "family_name": "Smith",
+            "move_in_date": "2024-12-01",
+            "number_of_members": 3,
+            "visited_by_bishopric": true,
+            "family_members": [
+                {
+                    "name": "John Smith",
+                    "gender": "Male",
+                    "birthdate": "1990-04-18"
+                },
+                {
+                    "name": "Rachel Smith",
+                    "gender": "Female",
+                    "birthdate": "1992-02-22"
+                },
+                {
+                    "name": "Mason Smith",
+                    "gender": "Male",
+                    "birthdate": "2020-11-02"
+                }
+            ]
+        },
+        {
+            "family_name": "Taylor",
+            "move_in_date": "2025-01-10",
+            "number_of_members": 6,
+            "visited_by_bishopric": true,
+            "family_members": [
+                {
+                    "name": "David Taylor",
+                    "gender": "Male",
+                    "birthdate": "1984-06-03"
+                },
+                {
+                    "name": "Sophia Taylor",
+                    "gender": "Female",
+                    "birthdate": "1986-10-11"
+                },
+                {
+                    "name": "Oliver Taylor",
+                    "gender": "Male",
+                    "birthdate": "2013-07-07"
+                },
+                {
+                    "name": "Grace Taylor",
+                    "gender": "Female",
+                    "birthdate": "2015-04-14"
+                },
+                {
+                    "name": "Ethan Taylor",
+                    "gender": "Male",
+                    "birthdate": "2018-03-21"
+                },
+                {
+                    "name": "Isabella Taylor",
+                    "gender": "Female",
+                    "birthdate": "2022-01-01"
+                }
+            ]
+        },
+        {
+            "family_name": "White",
+            "move_in_date": "2025-03-10",
+            "number_of_members": 2,
+            "visited_by_bishopric": false,
+            "family_members": [
+                {
+                    "name": "Chris White",
+                    "gender": "Male",
+                    "birthdate": "1993-08-13"
+                },
+                {
+                    "name": "Madeline White",
+                    "gender": "Female",
+                    "birthdate": "1995-03-30"
+                }
+            ]
+        }
+    ]
+}
