@@ -27,7 +27,7 @@ form.addEventListener('submit', function(event) {
         event.preventDefault();
         alert('Please enter a valid email address from byui.edu domain.');
         email.value = '';
-        email.focus();
+        email.focus(); 
     }
 });
 
