@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+#cards {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+section {
+    background-color: lightblue;
+    padding: 0 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin: 2rem;
+    text-align: center;
+}
