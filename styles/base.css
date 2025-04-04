@@ -133,6 +133,8 @@ main {
 #hero-div img {
     width: 100%;
     border-radius: 5px;
+    max-height: 450px;
+    object-fit: cover;
 }
 #hero-overlay {
     position: absolute;
