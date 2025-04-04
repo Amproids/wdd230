@@ -170,10 +170,16 @@ main h1 {
     margin-bottom: 0.5rem;
 }
 
+.card h3 {
+    margin: 1.5rem 0 0 0;
+}
+
 .card a {
+    margin-left: 0.5rem;
     color: #3a5a78;
     text-decoration: none;
     transition: text-decoration 0.3s ease;
+    
 }
 
 .card a:hover {
