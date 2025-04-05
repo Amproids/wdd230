@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapleton City Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Mapleton City Chamber of Commerce - connecting local businesses and the community in Mapleton, Utah">
+    <meta name="author" content="Andrew L. Parry">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/chamber-icon.svg">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Mapleton City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Connecting Mapleton businesses and community members since 1995. Discover local events, business resources, networking opportunities, and membership benefits. Join us to grow your business and strengthen our vibrant mountain community.">
+    <meta property="og:image" content="https://amproids.github.io/wdd230/chamber/images/chamber-icon.svg">
+    <meta property="og:url" content="https://andrewparry.github.io/wdd230/chamber/index.html">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/directory.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="images/chamber-icon.svg" alt="Mapleton City Chamber of Commerce Logo">
+                <div class="site-name">
+                    <h1>Mapleton City<br>Chamber of Commerce</h1>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <nav>
+                <div id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                    <i class="bi bi-list" aria-hidden="true"></i>
+                </div>
+                <ul id="primary-nav">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="current-date">
+            <p id="current-date">Current Date</p>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/chamber-icon.svg" alt="Mapleton Chamber of Commerce Logo">
+                <div class="footer-name">
+                    <h3>Mapleton City Chamber of Commerce</h3>
+                    <p><i class="bi bi-geo-alt" aria-hidden="true"></i> 123 Main Street, Mapleton, UT 84664</p>
+                </div>
+            </div>
+            
+            <div class="footer-contact">
+                <p><i class="bi bi-envelope" aria-hidden="true"></i> info@mapletonchamber.org</p>
+                <p><i class="bi bi-telephone" aria-hidden="true"></i> (801) 555-1234</p>
+                <p><a href="https://maps.google.com" target="_blank"><i class="bi bi-map" aria-hidden="true"></i> Location Map</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-base">
+            <p>&copy; <span id="current-year"></span> Mapleton City Chamber of Commerce | Andrew L. Parry | WDD 230 Project</p>
+            <p><i class="bi bi-pencil" aria-hidden="true"></i> Last Modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+    
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/directory.js" defer></script>
+</body>
+</html>
