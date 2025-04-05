@@ -1,0 +1,74 @@
+{
+    "members": [
+        {
+            "name": "Acme Web Solutions",
+            "address": "123 Main Street, Mapleton, UT 83445",
+            "phone": "(208) 555-1234",
+            "website": "https://www.acmewebsolutions.com",
+            "image": "images/acme-logo.png",
+            "membershipLevel": "Gold",
+            "established": 2005,
+            "description": "Premier web development and hosting services for small businesses."
+        },
+        {
+            "name": "Mapleton Medical Center",
+            "address": "456 Health Avenue, Mapleton, UT 83445",
+            "phone": "(208) 555-2345",
+            "website": "https://www.mapletonmedical.org",
+            "image": "images/medical-logo.png",
+            "membershipLevel": "Silver",
+            "established": 1978,
+            "description": "Comprehensive healthcare services for the Mapleton community."
+        },
+        {
+            "name": "First National Bank of Mapleton",
+            "address": "789 Finance Road, Mapleton, UT 83445",
+            "phone": "(208) 555-3456",
+            "website": "https://www.fnbmapleton.com",
+            "image": "images/bank-logo.png",
+            "membershipLevel": "Gold",
+            "established": 1932,
+            "description": "Trusted financial services for individuals and businesses."
+        },
+        {
+            "name": "Green Valley Landscaping",
+            "address": "321 Garden Way, Mapleton, UT 83446",
+            "phone": "(208) 555-4567",
+            "website": "https://www.greenvalleylandscaping.com",
+            "image": "images/landscaping-logo.png",
+            "membershipLevel": "Bronze",
+            "established": 2010,
+            "description": "Professional landscaping and garden maintenance services."
+        },
+        {
+            "name": "Mapleton Auto Repair",
+            "address": "654 Mechanics Drive, Mapleton, UT 83445",
+            "phone": "(208) 555-5678",
+            "website": "https://www.mapletonauto.com",
+            "image": "images/auto-logo.png",
+            "membershipLevel": "Silver",
+            "established": 1995,
+            "description": "Quality automotive repair and maintenance services."
+        },
+        {
+            "name": "Mountain View Real Estate",
+            "address": "987 Property Lane, Mapleton, UT 83446",
+            "phone": "(208) 555-6789",
+            "website": "https://www.mountainviewrealty.com",
+            "image": "images/realty-logo.png",
+            "membershipLevel": "Gold",
+            "established": 2001,
+            "description": "Helping families find their dream homes in the Mapleton area."
+        },
+        {
+            "name": "Mapleton Cafe",
+            "address": "246 Coffee Street, Mapleton, UT 83445",
+            "phone": "(208) 555-7890",
+            "website": "https://www.mapletoncafe.com",
+            "image": "images/cafe-logo.png",
+            "membershipLevel": "Bronze",
+            "established": 2015,
+            "description": "Cozy cafe serving locally-sourced coffee, pastries, and light meals."
+        }
+    ]
+}
