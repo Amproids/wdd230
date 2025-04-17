@@ -147,12 +147,17 @@
                 </div>
                 
                 <div class="info-card" id="weather">
-                    <h3><i class="bi bi-cloud-sun" aria-hidden="true"></i> Weather</h3>
                     <div class="weather-content">
-                        <div class="temp">72°F</div>
-                        <div class="condition">Partly Cloudy</div>
-                        <div class="wind"><i class="bi bi-wind" aria-hidden="true"></i> Wind Speed: 5 mph</div>
-                        <div class="humidity"><i class="bi bi-droplet" aria-hidden="true"></i> Humidity: 45%</div>
+                        <div id="temp">??</div>
+                        <div id="icon">??</div>
+                        <div id="condition">??</div>
+                        <div id="wind"></div>
+                        <div id="humidity"</div>
+                    </div>
+                    <div class="forecast">
+                        <h4>3-Day Forecast</h4>
+                        <div class="forecast-container">
+                        </div>
                     </div>
                 </div>
                 
@@ -204,5 +209,6 @@
     </footer>
     
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/weather.js" defer></script>
 </body>
 </html>

@@ -312,27 +312,91 @@ main {
     gap: 0.5rem;
 }
 
-.weather-content {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.temp {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-.condition {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
 .city-link {
     display: inline-block;
     margin-top: 1rem;
 }
 
+/* Weather Section */
+.weather-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+#temp {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--dark-gray);
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+}
+
+#icon {
+    font-size: 2.5rem;
+    color: var(--accent1-color);
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+}
+
+#wind, #humidity {
+    align-items: center;
+    padding: 0.5rem;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
+#wind {
+    text-align: right;
+}
+
+#wind i, #humidity i {
+    color: var(--accent1-color);
+    font-size: 1.2rem;
+}
+
+#condition {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+.forecast {
+    border-top: 1px solid var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+/* Forecast Section */
+.forecast {
+    padding: 1rem;
+    background-color: var(--light-gray);
+    border-radius: 0 0 8px 8px;
+}
+
+.forecast h4 {
+    margin-bottom: 0.75rem;
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.forecast i {
+    font-size: 2rem;
+}
 /* Benefits Section */
 .benefit-card {
     background-color: var(--light-gray);
