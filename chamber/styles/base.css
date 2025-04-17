@@ -181,7 +181,60 @@ nav {
     width: 100%;
     margin-top: 1rem;
 }
+/* Banner Styles */
+.banner {
+    background-color: var(--accent1-color);
+    border-bottom: 2px var(--accent2-color) solid;
+    color: var(--white);
+    display: none;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
 
+.banner-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.banner-content p {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.banner-close:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .banner-close {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
 /* Main Content Styles */
 main {
     padding: 1rem;
